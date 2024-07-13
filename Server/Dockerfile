@@ -1,4 +1,4 @@
-FROM ubuntu:xenial
+FROM ubuntu:xenial-20210416
 ENV PYTHONUNBUFFERED 1
 RUN apt-get update
 RUN apt-get install python3-pip xvfb git software-properties-common -y
